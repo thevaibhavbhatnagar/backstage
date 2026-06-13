@@ -110,7 +110,7 @@ catalog:
       target: ../../examples/entities.yaml
 
     - type: file
-      target: ./backstage/catalog-info.yaml
+      target: C:/Users/vaibhav/Documents/GitHub/backstage/backstage/catalog-info.yaml
 
     # Local example template
     - type: file
