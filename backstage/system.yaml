@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
-kind: Group
+kind: System
 
 metadata:
-  name: engineering
+  name: pos-platform
 
 spec:
-  type: team
+  owner: engineering

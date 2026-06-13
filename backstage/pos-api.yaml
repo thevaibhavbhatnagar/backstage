@@ -1,18 +1,4 @@
 apiVersion: backstage.io/v1alpha1
-kind: API
-
-metadata:
-  name: pos-api
-
-spec:
-  type: openapi
-
-  lifecycle: production
-
-  owner: engineering
-
-  definition: |
-    openapi: 3.0.0apiVersion: backstage.io/v1alpha1
 kind: Component
 
 metadata:
@@ -25,11 +11,7 @@ spec:
   type: service
   lifecycle: production
   owner: engineering
-
   system: pos-platform
 
   providesApis:
     - pos-api
-    info:
-      title: POS API
-      version: 1.0.0
