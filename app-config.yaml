@@ -114,11 +114,11 @@ catalog:
   # - allow: [Component, System, API, Resource, Location]
   locations:
     # Local example data, file locations are relative to the backend process, typically `packages/backend`
-    - type: file
-      target: ../../examples/entities.yaml
+    # - type: file
+    # target: ../../examples/entities.yaml
 
     - type: file
-      target: C:/Users/vaibhav/Documents/GitHub/backstage/backstage/catalog-info.yaml
+      target: ../../backstage/catalog-info.yaml
 
     # Local example template
     - type: file

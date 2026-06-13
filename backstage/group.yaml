@@ -6,3 +6,7 @@ metadata:
 
 spec:
   type: team
+  profile:
+    displayName: Engineering Team
+
+  children: []

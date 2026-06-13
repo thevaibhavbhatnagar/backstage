@@ -4,9 +4,6 @@ kind: Component
 metadata:
   name: pos-api-service
 
-  annotations:
-    github.com/project-slug: thevaibhavbhatnagar/pos-api
-
 spec:
   type: service
   lifecycle: production
